@@ -29,7 +29,7 @@ public class Student {
     // Per risolvere questo problema si risolve con l'annotazione @Enumarated(EnumType.STRING
 
     public Student() {
-        // Il costurttore vuoto è obbligaotrio con le entities se hanno un contruttore che degli attributi
+        // Il costruttore vuoto è obbligatorio con le entities se hanno un costruttore che degli attributi
     }
 
     public Student(String name, String surname, StudentType studentType) {
