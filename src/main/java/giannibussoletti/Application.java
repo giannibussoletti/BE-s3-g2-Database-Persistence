@@ -28,5 +28,13 @@ public class Application {
         //      Effettuare le operazioni di interazione con il db impiegando gli strumenti JPA come l'EntityManager
 
 
+        // Come si fa il mapping delle Entities(Classi)
+        //Le annotazioni principali sono:
+        // @Entity - indica che la classe deve essere gestita come entity
+        // @Table(name = "...") - indica il nome della tabella DB corrispondente alla classe
+        // @Column(name = "..." - mappa l'attributo su una specifica colonna
+        // @Id - indica l'attributo che deve essere utilizzato come chiave primaria dell'elemento
+        // @Enumerated - Indica come deve essere mappato un campo corrispondente ad una proprietà di tipo Enum
+
     }
 }
