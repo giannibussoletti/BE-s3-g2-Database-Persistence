@@ -39,7 +39,7 @@ public class StudentsDAO {
         // Siccome in questo caso c'è un nuovo oggetto  nel PC, creerà una nuova riga nella tabella Students
         transaction.commit();
 
-        //5. Facciamo un log per sapere che tuytto è andato a buon fine
+        //5. Facciamo un log per sapere che tutto è andato a buon fine
     }
 
 
